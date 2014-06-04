@@ -1,0 +1,2 @@
+window.addEvent('domready',function(){if(!$('ja-subnav')||!$('ja-subnav').getElement('ul'))return;var sfEls=$('ja-subnav').getElement('ul').getChildren();sfEls.each(function(li){li.addEvent('mouseenter',function(e){clearTimeout(this.timer);if(this.className.indexOf(" hover")==-1)
+this.className+=" hover";});li.addEvent('mouseleave',function(e){this.timer=setTimeout(jasdl_sub_mouseOut.bind(this),100);});});});function jasdl_sub_mouseOut(){this.className=this.className.replace(new RegExp(" hover\\b"),"");};
