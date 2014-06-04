@@ -1,7 +1,0 @@
-parameters:
-#    mdm.example.class: MDM\mdmBundle\Example
-
-services:
-#    mdm.example:
-#        class: %mdm.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]
