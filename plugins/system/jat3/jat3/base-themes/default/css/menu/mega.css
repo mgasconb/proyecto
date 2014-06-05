@@ -42,6 +42,7 @@ ul.megamenu li { overflow: visible; }
     font-weight: 700;
     text-align: center;
     width: 25%;
+    min-width: 75px;
 }
 
 .ja-megamenu ul.level0 li.mega a.mega {

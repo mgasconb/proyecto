@@ -65,9 +65,9 @@ input, select, textarea, .inputbox {
 	font-family: Helvetica, Arial, sans-serif;
 }
 
-.inputbox { border: 1px solid #ccc; background: #fff; }
+.inputbox { border: 1px solid #ccc; background: #FF8C00; color: #fff }
 
-.inputbox:hover, .inputbox:focus { background: #ffffcc; }
+.inputbox:hover, .inputbox:focus { background: #FF8C00; color: #fff }
 
 /* Search ---*/
 form#searchForm { border-top: 1px solid #ccc; }
@@ -288,4 +288,11 @@ div.ja-innerdiv h4 {
     cursor: pointer;
     font-weight: 900;
     height: 40px;
+}
+
+.over{
+    background: -moz-radial-gradient(#1BB312, #9ACD32);
+    background: -webkit-radial-gradient(#1BB312, #9ACD32);
+    background: -o-radial-gradient(#1BB312, #9ACD32);
+    background: -ms-radial-gradient(#1BB312, #9ACD32);
 }
